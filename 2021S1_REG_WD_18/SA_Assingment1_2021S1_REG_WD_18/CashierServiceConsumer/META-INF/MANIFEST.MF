@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CashierServiceConsumer
+Bundle-SymbolicName: CashierServiceConsumer
+Bundle-Activator: cashierserviceconsumer.ServiceActivator
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.mtit.service,
+ com.mtit.service.databade,
+ com.mtit.service.model,
+ org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: CashierServiceConsumer
+Bundle-ActivationPolicy: lazy

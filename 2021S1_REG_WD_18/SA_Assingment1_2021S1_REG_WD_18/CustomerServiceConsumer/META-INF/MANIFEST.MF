@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CustomerServiceConsumer
+Bundle-SymbolicName: CustomerServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: customerserviceconsumer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: CustomerServiceConsumer
+Import-Package: com.mtit.customerservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ManageServiceConsumer
+Bundle-SymbolicName: ManageServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: manageserviceconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: ManageServiceConsumer
+Import-Package: com.mtit.manageservice,
+ com.mtit.service.model,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
